@@ -14,6 +14,8 @@
 		10653DC02B5201BA00D58842 /* IndoCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10653DBF2B5201BA00D58842 /* IndoCardTests.swift */; };
 		10653DCA2B5201BA00D58842 /* IndoCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10653DC92B5201BA00D58842 /* IndoCardUITests.swift */; };
 		10653DCC2B5201BA00D58842 /* IndoCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10653DCB2B5201BA00D58842 /* IndoCardUITestsLaunchTests.swift */; };
+		10653DDA2B5204DF00D58842 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10653DD92B5204DF00D58842 /* Pacifico-Regular.ttf */; };
+		10653DFA2B537CDA00D58842 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10653DF92B537CDA00D58842 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		10653DC52B5201BA00D58842 /* IndoCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndoCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10653DC92B5201BA00D58842 /* IndoCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoCardUITests.swift; sourceTree = "<group>"; };
 		10653DCB2B5201BA00D58842 /* IndoCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		10653DD92B5204DF00D58842 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		10653DF52B52064000D58842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		10653DF92B537CDA00D58842 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +99,11 @@
 		10653DAD2B5201B900D58842 /* IndoCard */ = {
 			isa = PBXGroup;
 			children = (
+				10653DF52B52064000D58842 /* Info.plist */,
+				10653DD82B5204D300D58842 /* fonts */,
 				10653DAE2B5201B900D58842 /* IndoCardApp.swift */,
 				10653DB02B5201B900D58842 /* ContentView.swift */,
+				10653DF92B537CDA00D58842 /* InfoView.swift */,
 				10653DB22B5201B900D58842 /* Assets.xcassets */,
 				10653DB42B5201B900D58842 /* Preview Content */,
 			);
@@ -125,6 +133,14 @@
 				10653DCB2B5201BA00D58842 /* IndoCardUITestsLaunchTests.swift */,
 			);
 			path = IndoCardUITests;
+			sourceTree = "<group>";
+		};
+		10653DD82B5204D300D58842 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				10653DD92B5204DF00D58842 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10653DDA2B5204DF00D58842 /* Pacifico-Regular.ttf in Resources */,
 				10653DB62B5201B900D58842 /* Preview Assets.xcassets in Resources */,
 				10653DB32B5201B900D58842 /* Assets.xcassets in Resources */,
 			);
@@ -258,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10653DB12B5201B900D58842 /* ContentView.swift in Sources */,
+				10653DFA2B537CDA00D58842 /* InfoView.swift in Sources */,
 				10653DAF2B5201B900D58842 /* IndoCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +443,7 @@
 				DEVELOPMENT_TEAM = AJB4SPC923;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IndoCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +473,7 @@
 				DEVELOPMENT_TEAM = AJB4SPC923;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IndoCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
